@@ -15,7 +15,7 @@ export class Section extends Component {
                 <Route path="/" component={Products} exact/>
                 <Route path="/cart" component={Cart} exact/>
                 <Route path="/" component={Products} exact/>
-                <Route path="/" component={Products} exact />
+                <Route path="/shopping-cart-react" component={Products} exact />
             </section>
         )
     }
