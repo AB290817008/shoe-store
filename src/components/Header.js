@@ -37,13 +37,13 @@ export class Header extends Component {
 						</li>
 						{/* <li><Link to="/product">Product</Link></li> */}
 						<li>
-							<Link onClick={() => alert('This is a test site')}>Contact</Link>
+							<Link to="/" onClick={() => alert('This is a test site')}>Contact</Link>
 						</li>
 						<li>
-							<Link onClick={() => alert('This is a test site')}>About</Link>
+							<Link to="/" onClick={() => alert('This is a test site')}>About</Link>
 						</li>
 						<li>
-							<Link onClick={() => alert('This is a test site')}>Login / Register</Link>
+							<Link to="/" onClick={() => alert('This is a test site')}>Login / Register</Link>
 						</li>
 						<li className="close" onClick={this.menuToggle}>
 							<img src={Close} alt="" width="20" />

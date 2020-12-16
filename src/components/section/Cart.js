@@ -42,7 +42,7 @@ export class Cart extends Component {
                         ))
                     }
                     <div className="total">
-                        <Link onClick={()=>alert("This is a test site. Payment methods coming soon!")}>Payment</Link>
+                        <Link to="/" onClick={()=>alert("This is a test site. Payment methods coming soon!")}>Payment</Link>
                         <h3>Total: ${total}</h3>
                     </div>
                 </>
